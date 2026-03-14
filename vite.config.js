@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
-
 export default defineConfig({
     plugins: [
         laravel({
@@ -24,6 +23,7 @@ export default defineConfig({
                 'node_modules/owl.carousel/dist/assets/owl.carousel.min.css',
                 'node_modules/jquery-nice-select/css/nice-select.css',
                 'resources/js/app.js',
+                'resources/js/main.js',
             ],
             refresh: true,
         }),
